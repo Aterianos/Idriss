@@ -1,0 +1,130 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #87CEEB; /* Sky blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.superluigibros.com/images/news/super-mario-bros-3-level-1-1.png'); /* Classic Mario level background */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    padding: 20px;
+    border-bottom: 3px dashed #ff6347; /* Bright dashed border */
+    color: #ff6347; /* Bright tomato color */
+    text-shadow: 2px 2px #000;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+.about {
+    padding: 20px;
+}
+
+.profile-container {
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.profile-container:hover {
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 0 0 30px rgba(255, 99, 71, 0.7);
+}
+
+.profile-pic {
+    width: 160px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.gift-list {
+    padding: 20px;
+    background: rgba(255, 255, 204, 0.7); /* Light yellow background */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.gift-list h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #008000; /* Bright green color */
+    text-shadow: 2px 2px #ff6347;
+}
+
+.gift-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gift-list li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.gift-list li:hover {
+    transform: scale(1.1) translateY(-5px);
+    color: #ff4500; /* Bright orange on hover */
+}
+
+.cash-gift {
+    padding: 20px;
+    background: rgba(204, 255, 255, 0.7); /* Light cyan background */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.cash-gift h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #ff4500; /* Bright orange color */
+    text-shadow: 2px 2px #000;
+}
+
+.qr-code {
+    width: 150px;
+    margin-top: 10px;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff4500;
+    transition: transform 0.3s;
+}
+
+.qr-code:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    padding: 20px;
+    border-top: 3px dashed #ff6347; /* Bright dashed border */
+    color: #ff6347;
+    text-shadow: 2px 2px #000;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 0;
+}
